@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_P2h-sDK9Eee7YvPuXbggUQ" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_7QyNQDK9Eee7YvPuXbggUQ" name="CircleArrow">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_17e8gDK9Eee7YvPuXbggUQ" name="Employe"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_BHm2sDK-Eee7YvPuXbggUQ" name="Superviseur"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Jka1gDK_Eee7YvPuXbggUQ" name="Application">
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_D-PsoDK-Eee7YvPuXbggUQ" name="Enregistrer Activite"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_OEwCkDK-Eee7YvPuXbggUQ" name="Modifier Activite"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yDYNEDK-Eee7YvPuXbggUQ" name="Communiquer"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_RxqZMDK-Eee7YvPuXbggUQ" name="Créer Registre"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TsjYkDK-Eee7YvPuXbggUQ" name="Valider Registre"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gVZvcDK-Eee7YvPuXbggUQ" name="Consulter infos"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_V0ac8DK-Eee7YvPuXbggUQ" name="Créer Projet"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7cnNUDK-Eee7YvPuXbggUQ" memberEnd="_7dc60DK-Eee7YvPuXbggUQ _7deI8DK-Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7c1PwDK-Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7c120DK-Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7dc60DK-Eee7YvPuXbggUQ" name="enregistrer activite" type="_D-PsoDK-Eee7YvPuXbggUQ" association="_7cnNUDK-Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7deI8DK-Eee7YvPuXbggUQ" name="employe" type="_17e8gDK9Eee7YvPuXbggUQ" association="_7cnNUDK-Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-3VnwDK-Eee7YvPuXbggUQ" memberEnd="_-3YEADK-Eee7YvPuXbggUQ _-3YrEDK-Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-3W14DK-Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-3Xc8DK-Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-3YEADK-Eee7YvPuXbggUQ" name="modifier activite" type="_OEwCkDK-Eee7YvPuXbggUQ" association="_-3VnwDK-Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-3YrEDK-Eee7YvPuXbggUQ" name="employe" type="_17e8gDK9Eee7YvPuXbggUQ" association="_-3VnwDK-Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_C691QDK_Eee7YvPuXbggUQ" memberEnd="_C6_DYDK_Eee7YvPuXbggUQ _C6_DYTK_Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C6-cUDK_Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C6-cUTK_Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C6_DYDK_Eee7YvPuXbggUQ" name="communiquer" type="_yDYNEDK-Eee7YvPuXbggUQ" association="_C691QDK_Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C6_DYTK_Eee7YvPuXbggUQ" name="employe" type="_17e8gDK9Eee7YvPuXbggUQ" association="_C691QDK_Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EuGm0DK_Eee7YvPuXbggUQ" memberEnd="_EuIcADK_Eee7YvPuXbggUQ _EuJDEDK_Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EuHN4DK_Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EuH08DK_Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EuIcADK_Eee7YvPuXbggUQ" name="communiquer" type="_yDYNEDK-Eee7YvPuXbggUQ" association="_EuGm0DK_Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EuJDEDK_Eee7YvPuXbggUQ" name="superviseur" type="_BHm2sDK-Eee7YvPuXbggUQ" association="_EuGm0DK_Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FiTD4DK_Eee7YvPuXbggUQ" memberEnd="_FjD44DK_Eee7YvPuXbggUQ _FjEf8DK_Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FjDR0DK_Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FjDR0TK_Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FjD44DK_Eee7YvPuXbggUQ" name="créer registre" type="_RxqZMDK-Eee7YvPuXbggUQ" association="_FiTD4DK_Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FjEf8DK_Eee7YvPuXbggUQ" name="superviseur" type="_BHm2sDK-Eee7YvPuXbggUQ" association="_FiTD4DK_Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GNq8IDK_Eee7YvPuXbggUQ" memberEnd="_GNsxUDK_Eee7YvPuXbggUQ _GNtYYDK_Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GNsKQDK_Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GNsKQTK_Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GNsxUDK_Eee7YvPuXbggUQ" name="valider registre" type="_TsjYkDK-Eee7YvPuXbggUQ" association="_GNq8IDK_Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GNtYYDK_Eee7YvPuXbggUQ" name="superviseur" type="_BHm2sDK-Eee7YvPuXbggUQ" association="_GNq8IDK_Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GwU9QDK_Eee7YvPuXbggUQ" memberEnd="_GwXZgDK_Eee7YvPuXbggUQ _GwYAkDK_Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GwWLYDK_Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GwWycDK_Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GwXZgDK_Eee7YvPuXbggUQ" name="consulter infos" type="_gVZvcDK-Eee7YvPuXbggUQ" association="_GwU9QDK_Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GwYAkDK_Eee7YvPuXbggUQ" name="superviseur" type="_BHm2sDK-Eee7YvPuXbggUQ" association="_GwU9QDK_Eee7YvPuXbggUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HWEuoDK_Eee7YvPuXbggUQ" memberEnd="_HWGj0TK_Eee7YvPuXbggUQ _HWHK4DK_Eee7YvPuXbggUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HWF8wDK_Eee7YvPuXbggUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HWGj0DK_Eee7YvPuXbggUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HWGj0TK_Eee7YvPuXbggUQ" name="créer projet" type="_V0ac8DK-Eee7YvPuXbggUQ" association="_HWEuoDK_Eee7YvPuXbggUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HWHK4DK_Eee7YvPuXbggUQ" name="superviseur" type="_BHm2sDK-Eee7YvPuXbggUQ" association="_HWEuoDK_Eee7YvPuXbggUQ"/>
+  </packagedElement>
+</uml:Model>
